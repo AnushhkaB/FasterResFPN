@@ -4,6 +4,13 @@ FasterResFPN is an end-to-end, deep learning–based object detection system eng
 
 Trained on the Microplastic-100 dataset, the system achieves state-of-the-art recall while maintaining competitive precision, making it a strong alternative to costly and time-consuming laboratory techniques such as FTIR and Raman spectroscopy.
 
+## 📊 Example Detections
+
+<p align="center">
+  <img src="images/microplastic_examples.png" alt="Examples of detected microplastic types" width="700"/>
+</p>
+
+**Fig. 1.** Examples of four microplastic types detected, as shown in the three images.
 ## Why FasterResFPN ?
 Traditional microplastic detection relies on spectroscopy or manual microscopy, both of which are resource-intensive, slow, and impractical for large-scale monitoring. These methods also demand specialized equipment and expertise, limiting their accessibility in field applications. FasterResFPN, by contrast, applies two-stage deep detection to overcome real-world challenges like turbidity, lighting variation, and background clutter. By leveraging a ResNet-50 backbone with a Feature Pyramid Network (FPN), it captures both fine-grained details and high-level semantic features, making it effective across particle sizes—from large fragments and pellets to tiny, low-contrast fibers and thin films. Trained with diverse augmentations on the dataset, FasterResFPN achieves strong recall and accuracy, offering a scalable, automated alternative for environmental monitoring.
 
