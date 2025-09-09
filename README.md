@@ -16,17 +16,17 @@ Traditional microplastic detection relies on spectroscopy or manual microscopy, 
 
 ## 🗺️ Model Pipeline
 
-1. **Backbone (ResNet-50 + FPN)**  
-   - Extracts multi-scale features (P2–P5), capturing fine details (thin films) and broader context (fragments/pellets).
+1. **Backbone (ResNet-50 + FPN)**
+   - Extracts **multi-scale hierarchical features** (P2–P5), allowing the model to capture both **fine-grained details** like thin films and fibers as well as **broader contextual cues** for larger particles such as fragments and pellets. This ensures balanced performance across varying microplastic sizes.
 
-2. **Region Proposal Network (RPN)**  
-   - Generates candidate bounding boxes using anchors, optimized with classification + regression loss.
+2. **Region Proposal Network (RPN)**
+   - Generates **candidate bounding boxes (anchors)** across different scales and aspect ratios. These proposals are refined using **classification and regression losses**, filtering out irrelevant regions while preserving likely microplastic candidates.
 
-3. **ROI Align**  
-   - Preserves fine-grained details via bilinear interpolation for precise microplastic localization.
+3. **ROI Align**
+   - Applies **bilinear interpolation** to align proposed regions precisely with feature maps. This step avoids the quantization errors of ROI Pooling and ensures that even **subtle features of translucent or irregular particles** are preserved for accurate detection.
 
-4. **Fast R-CNN Head**  
-   - Performs **classification** into 4 classes and **bounding box refinement** for final predictions.
+4. **Fast R-CNN Head**
+   - Processes aligned regions to perform **final classification** into 4 microplastic categories (fibers, fragments, pellets, films). Simultaneously, it applies **bounding box regression** for improved localization, ensuring tighter and more accurate predictions.
 
 ## 📈 Results
 
