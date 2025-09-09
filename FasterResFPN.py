@@ -1,12 +1,6 @@
-# Install PyTorch & TorchVision (already installed, but ensure compatibility)
 !pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu124
-
-# Install other necessary dependencies
 !pip install timm roboflow
-
-# Install Detectron2 from the source (specific version for Colab)
 !pip install 'git+https://github.com/facebookresearch/detectron2.git'
-
 !pip install roboflow
 
 from roboflow import Roboflow
