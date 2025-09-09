@@ -28,7 +28,7 @@ Traditional microplastic detection relies on spectroscopy or manual microscopy, 
 4. **Fast R-CNN Head**  
    - Performs **classification** into 4 classes and **bounding box refinement** for final predictions.
 
-## Results
+## 📈 Results
 
 - **F1 Score**: 0.912  
 - **mAP@0.5**: 0.901  
