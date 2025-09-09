@@ -43,15 +43,15 @@ Outperforms **YOLOv7–YOLOv9** in recall, ensuring fewer missed microplastics.
 - **Films**: Weaker localization due to translucency and amorphous boundaries (dominant failure mode)
 
 ## 🔎 Features
-- **Multi-scale detection** of different microplastic sizes via FPN.  
-- **High recall** ensures fewer missed detections in noisy aquatic imagery.  
-- **Robust augmentation** pipeline (flips, scaling, jitter, rotation) to handle diverse real-world conditions.  
-- **Colab-compatible training notebook** (NVIDIA T4 GPU) included for reproducibility.  
-- **COCO-format dataset support**, allowing easy retraining or fine-tuning on new data.  
+- Multi-scale detection of different microplastic sizes via FPN.  
+- High recall ensures fewer missed detections in noisy aquatic imagery.  
+- Robust augmentation pipeline (flips, scaling, jitter, rotation) to handle diverse real-world conditions.  
+- Colab-compatible training notebook (NVIDIA T4 GPU) included for reproducibility.  
+- COCO-format dataset support, allowing easy retraining or fine-tuning on new data.  
 
 ---
 
-## 📌 Future Work
+## 📌 Future Improvements
 - Experiment with DIoU/CIoU losses, aspect-ratio clustering, and super-resolution for thin films.  
 - Extend dataset with deep-sea, estuarine, and wastewater samples.  
 - Apply pruning + quantization for real-time use on UAVs, AUVs, and embedded GPUs.  
