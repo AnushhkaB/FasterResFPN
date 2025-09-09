@@ -1,8 +1,8 @@
 # 🔬 FasterResFPN: Deep Learning for Automated Microplastic Detection in Aquatic Environments
 
-FasterResFPN is an end-to-end, deep learning–based object detection system engineered to enable large-scale microplastic surveillance in natural waters. Built upon Faster R-CNN with a ResNet-50 + Feature Pyramid Network (FPN) backbone, it leverages multi-scale feature learning to classify and localize four major categories of microplastic particles: fibers, fragments, pellets, and films.
+FasterResFPN is an end-to-end, deep learning–based object detection system engineered to enable large-scale microplastic surveillance in natural waters. Built upon **Faster R-CNN with a ResNet-50 + Feature Pyramid Network (FPN) backbone**, it leverages multi-scale feature learning to classify and localize four major categories of microplastic particles: fibers, fragments, pellets, and films.
 
-Trained on the Microplastic-100 dataset, the system achieves state-of-the-art recall while maintaining competitive precision, making it a strong alternative to costly and time-consuming laboratory techniques such as FTIR and Raman spectroscopy.
+The system achieves state-of-the-art recall while maintaining competitive precision, making it a strong alternative to costly and time-consuming laboratory techniques such as FTIR and Raman spectroscopy.
 
 ## 📊 Example Detections
 
