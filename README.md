@@ -18,7 +18,7 @@ Traditional microplastic detection relies on spectroscopy or manual microscopy, 
    - Preserves fine-grained details via bilinear interpolation for precise microplastic localization.
 
 4. **Fast R-CNN Head**  
-   - Performs classification into 4 classes and bounding box refinement for final predictions.
+   - Performs **classification** into 4 classes and **bounding box refinement** for final predictions.
 
 ## Results
 
