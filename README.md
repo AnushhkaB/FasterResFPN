@@ -7,7 +7,7 @@ Trained on the Microplastic-100 dataset, the system achieves state-of-the-art re
 ## 📊 Example Detections
 
 <p align="center">
-  <img src="images/microplastic_examples.png" alt="Examples of detected microplastic types" width="700"/>
+  <img src="images/microplastic_detected.png" alt="Examples of detected microplastic types" width="700"/>
 </p>
 
 **Fig. 1.** Examples of four microplastic types detected, as shown in the three images.
