@@ -52,8 +52,8 @@ Outperforms **YOLOv7–YOLOv9** in recall, ensuring fewer missed microplastics.
 ---
 
 ## 🚀 Future Work
-- **Localization Improvements**: Experiment with DIoU/CIoU losses, aspect-ratio clustering, and super-resolution for thin films.  
-- **Domain Adaptation**: Extend dataset with deep-sea, estuarine, and wastewater samples.  
-- **Edge Deployment**: Apply pruning + quantization for real-time use on UAVs, AUVs, and embedded GPUs.  
+- Experiment with DIoU/CIoU losses, aspect-ratio clustering, and super-resolution for thin films.  
+- Extend dataset with deep-sea, estuarine, and wastewater samples.  
+- Apply pruning + quantization for real-time use on UAVs, AUVs, and embedded GPUs.  
 
 
